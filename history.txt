@@ -1,0 +1,42 @@
+    1  cd C:\Users\User\Desktop\umuzi\git-basic-exercises
+    2  cd Desktop
+    3  cd umuzi
+    4  cd git-basic-exercises
+    5  nano README.md
+    6  cat README.md
+    7  git commit -m "second commit"
+    8  git add README.md
+    9  git commit -m "second commit"
+   10  nano README.md
+   11  git log
+   12  git add README.md
+   13  git commit -m "Third commit"
+   14  git log
+   15  q
+   16  git checkout ce6a567d9f3e9323e2212e93aea2077d8e0de2dc
+   17  cat README.md
+   18  git checkout main
+   19  git checkout master
+   20  cat README.md
+   21  git branch
+   22  git checkout -b milkshake-flavours
+   23  git branch
+   24  git checkout master
+   25  git branch
+   26  git checkout milkshake-flavours
+   27  git branch
+   28  nano milkshakes.md
+   29  git status
+   30  git add milkshakes.md
+   31  nano milkshakes.md
+   32  git status
+   33  git add milkshakes.md
+   34  git commit -m "added initial flavours"
+   35  git log
+   36  git checkout milkshake-flavours
+   37  git checkout master
+   38  git log
+   39  git checkout -b history
+   40  git log
+   41  git branch
+   42  history > history.txt
